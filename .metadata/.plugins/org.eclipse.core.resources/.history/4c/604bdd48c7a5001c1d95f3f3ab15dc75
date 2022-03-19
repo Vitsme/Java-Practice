@@ -1,0 +1,14 @@
+package maths;
+
+public class MyClass 
+{
+
+	public static void main(String[] args) 
+	{	
+		int n, r;
+		Maths obj = new Maths();
+		System.out.println(obj.nCr(5, 2));
+
+	}
+
+}

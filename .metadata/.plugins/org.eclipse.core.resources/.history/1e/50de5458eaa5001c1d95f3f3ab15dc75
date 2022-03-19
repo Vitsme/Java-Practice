@@ -1,0 +1,13 @@
+package secretCode;
+
+public class Police 
+
+{
+	public String secretcode()
+	{
+		return "007";
+	}
+	
+	
+	
+}

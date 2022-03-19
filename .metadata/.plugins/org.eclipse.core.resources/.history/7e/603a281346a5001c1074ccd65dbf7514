@@ -1,0 +1,13 @@
+package companyDetails1;
+
+public class MyClass 
+{
+	// getting data from myclass
+	public static void main(String[] args) 
+	{
+		Employee emp = new Employee();
+		emp.readData();
+		emp.printData();
+	}
+
+}
