@@ -1,0 +1,10 @@
+package switches;
+
+public class Switches {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

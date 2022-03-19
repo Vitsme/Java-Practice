@@ -1,0 +1,19 @@
+package ifStatement;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// if statement = performs a block of code if it's condition evaluates to be true
+
+		int age =18;
+		if(age == 18)
+		{
+			System.out.println("Your age is 18");
+		}
+		else
+		{
+			System.out.println("Your age is not 18");
+		}
+	}
+
+}
