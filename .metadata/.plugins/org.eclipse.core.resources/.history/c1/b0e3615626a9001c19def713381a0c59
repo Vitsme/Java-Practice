@@ -1,0 +1,21 @@
+git push -u origin main
+                          
+
+
+variables
+swap two variables //Creating String temp to interchange x and y values..
+user input  //using of scanner to getting user data
+expressions // Arithmetic expressions +-*/%
+GUI intro
+Math class // Math.max,Math.min,Math.sqrt,Math.round,Math.ceil,Math.floor,Math.abs -- Hypotenuse of Trianle
+random numbers // Random random= new Random();
+if statements
+switches
+logical operators
+while loop
+for loop
+nested loops
+arrays
+2d arrays
+string methods
+Wrapper class
