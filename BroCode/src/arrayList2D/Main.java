@@ -39,6 +39,9 @@ public class Main {
 		System.out.println(bakeryList.get(0));// to get particular element if i use zero i will get pasta
 		System.out.println(drinksList);
 		System.out.println(groceryList);
+		
+		System.out.println(groceryList.get(0));
+		System.out.println(groceryList.get(0).get(0));
 	}
 
 }
