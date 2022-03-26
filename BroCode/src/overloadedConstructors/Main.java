@@ -7,8 +7,8 @@ public class Main {
 		//							but have different parameters
 		//							name + parameters = signature
 		
-		Pizza pizza = new Pizza("thick crust","tomato");
-		
+		Pizza pizza = new Pizza("thick crust","tomato","mozzerolla","pepperoni");
+		//Pizza pizza = new Pizza("thick crust","tomato");
 		System.out.println("Here are the ingredients of your pizza: ");
 		System.out.println(pizza.bread);		
 		System.out.println(pizza.sauce);
