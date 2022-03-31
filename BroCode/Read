@@ -1,7 +1,5 @@
 git push -u origin main
                           
-
-
 variables
 swap two variables //Creating String temp to interchange x and y values..
 user input  //using of scanner to getting user data
