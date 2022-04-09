@@ -14,8 +14,11 @@ public class Main {
 		System.out.println(car.year);
 		
 		//what if we print without attribute
-		System.out.println(car);//it shows the address of the computer memory
-		System.out.println(car.toString());// it print same as the above address
+		//System.out.println(car);//it shows the address of the computer memory
+		//System.out.println(car.toString());// it print same as the above address
+		
+		System.out.println(car); //Implicit
+		System.out.println(car.toString());//Explicit
 
 	}
 
