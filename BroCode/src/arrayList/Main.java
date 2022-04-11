@@ -20,12 +20,13 @@ public class Main {
 		
 		food.set(0, "sushi"); // to change the value
 		food.remove(2);		// remove the value
-		food.clear();	// to clear all the value or element
+		//food.clear();	// to clear all the value or element
 		
 		
-		for(int i=0; i<food.size(); i++)
+		//for(int i=0; i<food.size(); i++)
+		for(String i: food)
 		{
-			System.out.println(food.get(i));// to get list of foods
+			System.out.println(i);// to get list of foods
 		}
 
 	}

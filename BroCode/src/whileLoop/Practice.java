@@ -11,8 +11,9 @@ public class Practice {
 		
 		while(name.isBlank())
 		{
-			System.out.println("Enter your name: ");
-			name = sc.nextLine();
+			System.out.println("Enter Your Name: ");
+			name =sc.nextLine();
+			
 		}
 		System.out.println("Hello "+name);
 				

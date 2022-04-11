@@ -8,17 +8,17 @@ public class Practice {
 		
 		int temp =15;
 		
-		if(temp>30)
+		if(temp > 30)
 		{
-			System.out.println("Hot outside");
+			System.out.println("It's very Hot Outside");
 		}
 		else if(temp>20 && temp<30)
 		{
-			System.out.println("Worm outside");
+			System.out.println("It's normal Outside");
 		}
-		else 
+		else
 		{
-			System.out.println("Cold outside");
+			System.out.println("It's cold Outside");
 		}
 
 	}
@@ -28,16 +28,15 @@ class Practice1 {
 	//Or
 		public static void main(String[] args) {
 			Scanner sc = new Scanner(System.in);
-			System.out.println("You are in the Pokemon world! Ente x or X to quit the Game:");
+			System.out.println("Imagine you are in the game Enter x or X to quit the game: ");
 			String response = sc.next();
-			
 			if(response.equals("x") || response.equals("X"))
 			{
 				System.out.println("You quit the game");
 			}
-			else 
+			else
 			{
-				System.out.println("You are in Pokemon world!");
+				System.out.println("You are in the game");
 			}
 			
 		}
@@ -47,19 +46,17 @@ class Practice2 {
 	//not
 		public static void main(String[] args) {
 			Scanner sc = new Scanner(System.in);
-			System.out.println("You are in the Pokemon world! Ente x or X to quit the Game:");
+			System.out.println("Imagine you are in the game Enter x or X to quit the game: ");
 			String response = sc.next();
-			
 			if(!response.equals("x") && !response.equals("X"))
 			{
-				System.out.println("You are in Pokemon world!");
-				
+				System.out.println("You are  in the game");
 			}
-			else 
+			else
 			{
 				System.out.println("You quit the game");
 			}
-					
+			
 }
 }
 

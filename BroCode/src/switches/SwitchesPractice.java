@@ -5,17 +5,19 @@ public class SwitchesPractice {
 	public static void main(String[] args) {
 		// 
 		
-		String FastandFurious = "VinDiesel";
+		String powerrangers = "Special Ranger";
 		
-		switch(FastandFurious)
+		switch(powerrangers)
 		{
-		case "VinDiesel": System.out.println("Lead role in this movie");
-		break;
-		case "Dwayne Johsnon": System.out.println("Playing Hobbs role in this movie");
-		break;
-		case "Paul Walker": System.out.println("He is no more");
-		break;
-		default:System.out.println("Invalide key");
+			case "Red": System.out.println("Lead the team");
+			break;
+			case "Blue": System.out.println("Second ranger in the team");
+			break;
+			case "Yellow": System.out.println("girlranger in the team");
+			break;
+			case "Special Ranger": System.out.println("Ranger with special ability");
+			break;
+			default: System.out.println("You are not a ranger!");
 		}
 		
 		

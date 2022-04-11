@@ -8,13 +8,9 @@ public class Main {
 		
 		//int x = add(1,2); // if i put only 2 values it will ended up with overload method #1
 		//int x = add(1,2,3,4);
-		double x = add(1.0,2.0,3.0,4.0);
-		
+		double x = add(1.0,2.0,3.0,4.0);		
 		System.out.println(x);
-
-	}
-	
-	
+	}		
 	static int add(int a, int b)
 	{
 		System.out.println("This is overloaded method #1");

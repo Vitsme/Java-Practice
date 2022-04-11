@@ -8,7 +8,7 @@ GUI intro
 Math class // Math.max,Math.min,Math.sqrt,Math.round,Math.ceil,Math.floor,Math.abs -- Hypotenuse of Trianle
 random numbers // Random random= new Random();
 if statements
-switches
+switches		
 logical operators
 while loop
 for loop
@@ -25,7 +25,7 @@ OverLoadedMethods
 printf() method
 final keyword 
 OOPs in java
-constructors
+constructors									//similar to OOPs but i need to add this. statement
 Variable scope(local and global)
 Overloaded Constructors
 ToString
