@@ -11,7 +11,7 @@ public class WhileLoop {
 		
 		
 		i=1;
-		while(i<=5)//first it checks the conditiona and then initialized
+		while(i<=5)//first it checks the conditions and then initialized
 		{
 			//it i put i=1 in this place it will infinite the initialization
 			System.out.println(i);
