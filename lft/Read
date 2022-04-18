@@ -26,3 +26,4 @@ encapsulation binds of code and data ex: box invoke method box.volume
 staticmethod -------------- we can access the static method only by static we can't able to call the object
 					check passing object for static 
 CommandLineArgument
+VarargsVariableLengthArguments
