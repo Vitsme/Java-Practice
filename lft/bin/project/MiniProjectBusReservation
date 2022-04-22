@@ -1,0 +1,19 @@
+Bus Reservation system mini project
+
+
+class Bus
+{
+Busno
+AC
+Capacity
+}
+
+
+class Booking
+{
+PassengerName
+Busno
+Date
+}
+
+in main method i want to book a bus looping method
