@@ -260,6 +260,7 @@
             <children xsi:type="basic:PartStack" xmi:id="_pcgdULb5EeylgpOIiPaPnQ" elementId="left" containerData="2833" selectedElement="_pcgdUbb5EeylgpOIiPaPnQ">
               <tags>org.eclipse.e4.primaryNavigationStack</tags>
               <tags>active</tags>
+              <tags>noFocus</tags>
               <children xsi:type="advanced:Placeholder" xmi:id="_pcgdUbb5EeylgpOIiPaPnQ" elementId="org.eclipse.jdt.ui.PackageExplorer" ref="_pchr7bb5EeylgpOIiPaPnQ" closeable="true">
                 <tags>View</tags>
                 <tags>categoryTag:Java</tags>
@@ -717,7 +718,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_pchsSrb5EeylgpOIiPaPnQ" elementId="org.eclipse.ui.workbench.file">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_BRKVENZ-EeyrnNxpBMGaBw" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_pcjkfrb5EeylgpOIiPaPnQ"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_JCHmkNkIEey7aotpL6PFRA" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_pcjkfrb5EeylgpOIiPaPnQ"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_pchsV7b5EeylgpOIiPaPnQ" elementId="group.edit" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -757,7 +758,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_pchst7b5EeylgpOIiPaPnQ" elementId="org.eclipse.ui.workbench.navigate">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_BRNYYdZ-EeyrnNxpBMGaBw" elementId="org.eclipse.ui.window.pinEditor" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" enabled="false" type="Check" command="_pcjkIrb5EeylgpOIiPaPnQ"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_JCKp4NkIEey7aotpL6PFRA" elementId="org.eclipse.ui.window.pinEditor" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" enabled="false" type="Check" command="_pcjkIrb5EeylgpOIiPaPnQ"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_pchsxLb5EeylgpOIiPaPnQ" elementId="group.editor" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -3498,7 +3499,7 @@
   <addons xmi:id="_pcjl_7b5EeylgpOIiPaPnQ" elementId="MinMax Addon" contributorURI="platform:/plugin/org.eclipse.platform" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.addons.swt/org.eclipse.e4.ui.workbench.addons.minmax.MinMaxAddon"/>
   <addons xmi:id="_pcjmALb5EeylgpOIiPaPnQ" elementId="org.eclipse.ui.workbench.addon.0" contributorURI="platform:/plugin/org.eclipse.platform" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.HandlerProcessingAddon"/>
   <addons xmi:id="_pcjmAbb5EeylgpOIiPaPnQ" elementId="SplitterAddon" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.addons.swt/org.eclipse.e4.ui.workbench.addons.splitteraddon.SplitterAddon"/>
-  <addons xmi:id="_IYS0IKimEeS11vbz3f9ezw" elementId="org.eclipse.ui.ide.addon.0" contributorURI="platform:/plugin/org.eclipse.ui.ide" contributionURI="bundleclass://org.eclipse.ui.ide/org.eclipse.ui.internal.ide.addons.SaveAllDirtyPartsAddon"/>
+  <addons xmi:id="_IubOgdkIEey7aotpL6PFRA" elementId="org.eclipse.ui.ide.addon.0" contributionURI="bundleclass://org.eclipse.ui.ide/org.eclipse.ui.internal.ide.addons.SaveAllDirtyPartsAddon"/>
   <addons xmi:id="_pcjmA7b5EeylgpOIiPaPnQ" elementId="org.eclipse.ui.ide.application.addon.0" contributorURI="platform:/plugin/org.eclipse.ui.ide.application" contributionURI="bundleclass://org.eclipse.ui.ide.application/org.eclipse.ui.internal.ide.application.addons.ModelCleanupAddon"/>
   <categories xmi:id="_pcjmBLb5EeylgpOIiPaPnQ" elementId="org.springframework.tooling.ls.eclipse.gotosymbol.commands.category" name="STS4"/>
   <categories xmi:id="_pcjmBbb5EeylgpOIiPaPnQ" elementId="org.eclipse.ui.category.edit" name="Edit"/>
