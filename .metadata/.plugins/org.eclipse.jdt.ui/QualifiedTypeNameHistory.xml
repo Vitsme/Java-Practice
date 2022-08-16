@@ -16,4 +16,5 @@
     <fullyQualifiedTypeName name="java.text.SimpleDateFormat"/>
     <fullyQualifiedTypeName name="projectPractice.Bus"/>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="com.sun.net.httpserver.Authenticator.Result"/>
 </qualifiedTypeNameHistroy>

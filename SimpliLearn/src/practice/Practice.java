@@ -1,11 +1,28 @@
 package practice;
 
 public class Practice {
-
-	public static void main(String[] args) 
+	
+	
+	public int CompareNum(int a,int b)
 	{
-		System.out.println(7>>>2);
+		
+		
+				
+		if(a>b)
+		{
+			return a;
+		}else
+		{
+			return b;
+		}
 
 	}
 
+	public static void main(String[] args) 
+	{
+		Practice num = new Practice();
+		int result = num.CompareNum(15,7);
+		System.out.println(result);
+	
+	}
 }

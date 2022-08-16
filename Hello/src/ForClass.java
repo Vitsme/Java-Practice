@@ -11,6 +11,7 @@ public class ForClass {
 		String name = sc.next();
 		System.out.println("Enter number of times to print: ");
 		int num = sc.nextInt();
+		//Condition i<=num;
 		for(int i=1; i<=num; i++)
 		{
 			System.out.println(name);
