@@ -375,23 +375,7 @@ class nestedLoop_Pattern1 //Downward Triangle
 }
 
 
-class nestedLoop_TrianglePattern
-{
-	public static void main(String[] args)
-	{
-		int rows = 5;
-		for(int i = 0; i<rows; i++)
-		{
-			System.out.print("");
-			
-			for(int j =0;j<=i;j++)
-			{
-				System.out.print(j+" ");
-			}
-			System.out.println(" ");
-		}
-	}
-}
+
 
 
 
