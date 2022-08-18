@@ -264,7 +264,7 @@ class whileLoopUserInput
 {
 	public static void main(String[] args)
 	{
-		String name="";
+		String name = ""; // Reason behind the while loop "" due to name.isBlank() it needs the user input some value otherwise it will repeat asking the question
 		Scanner sc =new Scanner(System.in);
 		
 		
@@ -277,3 +277,123 @@ class whileLoopUserInput
 		System.out.println("Hello "+name);
 	}
 }
+
+class forLoop
+{
+	public static void main(String[] args)
+	{
+		//int i;
+		for(int i=0;i<=10;i++)
+		{
+			System.out.println(i +" sigma");
+			
+		}
+	}
+}
+class forLoop1
+{
+	public static void main(String[] args)
+	{
+		for(int i=10;i>=0;i--)
+		{
+			System.out.println(i);
+		}
+	}
+}
+//nested loop
+class nestedLoop1
+{
+	public static void main(String[] args)
+	{
+		int weeks = 3;
+		int days = 7;
+		
+		for(int i=1;i<=weeks;++i)
+		{
+			System.out.println("Week: "+ i);
+			for(int j=1;j<=days;++j)
+			{
+				System.out.println("Day: "+j);
+			}
+		}
+	}
+}
+class loopinsideWhileLoop //nested loop
+{
+	public static void main(String[] args)
+	{
+		int weeks =3;
+		int days = 7;
+		int i =1;
+		while(i<=weeks)
+		{
+			System.out.println("Weeks : "+i);
+			for(int j = 1; j<=days; ++j)
+			{
+				System.out.println("Days : "+j);
+			}
+			++i;
+		}
+	}
+}
+class nestedLoop_Pattern //Upward Triangle
+{
+	public static void main(String[] args)
+	{
+		int rows =5;
+		
+		//outerloop
+		for(int i =1; i<=rows; ++i)
+		{
+			//innerloop
+			for(int j =1; j<=i; ++j)
+			{
+				System.out.print(j + " ");
+			}
+			System.out.println("");
+		}
+	}
+}
+
+class nestedLoop_Pattern1 //Downward Triangle
+{
+	public static void main(String[] args)
+	{
+		int rows =5;
+		
+		//outerloop
+		for(int i =rows; i>=1; --i)
+		{
+			//innerloop
+			for(int j =1; j<=i; ++j)
+			{
+				System.out.print(j+ " "); //System.out.print("*"+ " ");
+			}
+			System.out.println("");
+		}
+	}
+}
+
+
+class nestedLoop_TrianglePattern
+{
+	public static void main(String[] args)
+	{
+		int rows = 5;
+		for(int i = 0; i<rows; i++)
+		{
+			System.out.print("");
+			
+			for(int j =0;j<=i;j++)
+			{
+				System.out.print(j+" ");
+			}
+			System.out.println(" ");
+		}
+	}
+}
+
+
+
+
+
