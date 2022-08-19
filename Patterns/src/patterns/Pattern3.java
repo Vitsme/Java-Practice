@@ -26,9 +26,9 @@ public class Pattern3 {
 		
 		//It Will Create Partial triangle pattern
 		
-		for(int i = 0; i<=rows-1;i++)
+		for(int i = 0; i<=rows-1;++i)
 		{
-			for(int j=0; j<=i; j++)
+			for(int j=0; j<=i; ++j)
 			{
 				System.out.print("*" + " ");
 			}
@@ -37,9 +37,9 @@ public class Pattern3 {
 		
 		
 		//It will complete second half of the pattern
-		for(int i=rows-1;i>=0;i--)
+		for(int i=rows-1;i>=0;--i)
 		{
-			for(int j=0; j<=i-1;j++)
+			for(int j=0; j<=i-1;++j)
 			{
 				System.out.print("*" + " ");
 			}

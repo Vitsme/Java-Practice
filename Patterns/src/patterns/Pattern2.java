@@ -2,6 +2,14 @@ package patterns;
 
 import java.util.Scanner;
 
+/*
+ *  *  *  *  *
+ *  *  *  * 
+ *  *  * 
+ *  * 
+ * 
+ */
+
 public class Pattern2 
 {
 
@@ -42,5 +50,6 @@ class Pattern2User
 			}
 			System.out.println();
 		}
+		sc.close();
 	}
 }

@@ -2,6 +2,14 @@ package patterns;
 
 import java.util.Scanner;
 
+/*
+ * 
+ * *
+ * * *
+ * * * *
+ * * * * *
+ */
+
 public class Pattern1 {
 
 	public static void main(String[] args) 
@@ -12,7 +20,7 @@ public class Pattern1 {
 		{
 			for(int j=1;j<=i;++j) //Inner loop
 			{
-				System.out.print(j + " ");//System.out.print(" $ ");
+				System.out.print(" * ");//System.out.print(" $ ");
 			}
 			System.out.println("");
 		}
@@ -39,6 +47,7 @@ class Pattern1User
 			}
 			System.out.println("");
 		}
+		sc.close();
 	}
 }
 
