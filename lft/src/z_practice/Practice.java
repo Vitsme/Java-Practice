@@ -170,6 +170,182 @@ class conditionalOperator
 	}
 }
 
+//Switch
+class s_witch
+{
+	public static void main(String[] args)
+	{
+		String day ="Boyka";
+		
+		switch(day)
+		{
+		case "Monday":
+			System.out.println("Monday");
+			break;
+			
+		case "Tuesday":
+			System.out.println("Tuesday");
+			break;
+			
+		case "Wednesday":
+			System.out.println("Wednesday");
+			break;
+			
+		case "Thursday":
+			System.out.println("Thursday");
+			break;
+			
+		case "Friday":
+			System.out.println("Friday");
+			break;
+			
+		case "Saturday":
+			System.out.println("Saturday");
+			break;
+			
+		case "Sunday":
+			System.out.println("Sunday");
+			break;
+			
+		default:
+			System.out.println("You are in another planet");
+			break;
+		
+		}
+	}
+	
+}
+//Array
+class Arrays
+{
+	public static void main(String[] args)
+	{
+		int marks[] = {95, 76, 86, 54, 79};
+		System.out.println(marks[4]);
+	}
+}
+//Loops - ForLoop
+class forLoop
+{
+	public static void main(String[] args)
+	{
+		int i;
+		for(i =1; i<=5; i++)
+		{
+			System.out.println(i);
+		}
+		//System.out.println(" "+i);
+	}
+}
+//Loops - WhileLoop
+class whileLoop
+{
+	public static void main(String[] args)
+	{
+		int i =2;
+		while(i<=6)
+		{
+			System.out.println(i);
+			i++;
+		}
+		
+	}
+}
+//Loops - Nested Loops
+class nestedLoops
+{
+	public static void main(String[] args)
+	{
+		for(int i=1; i<=5; i++)
+		{
+			for(int j=1; j<=5; j++)
+				System.out.print("$");
+			{
+				System.out.println();
+			}
+		}
+	}
+}
+
+//Loops - LoopControlStatement
+//Jump statement -break,continue;
+
+//For a given n, find the nearest number divisible by 10 that is less than or equal to n
+
+class loopBreakstatement
+{
+	public static void main(String[] args)
+	{
+		int n = 46;
+		
+		while(n>=0)
+		{
+			if(n%10 == 0)
+			{
+				System.out.println(n);
+				break;
+			}
+			n--;
+		}
+	}
+}
+//Find the sum of all input numbers entered and negative numbers to exit the entered value
+class loopBreakStatement1
+{
+	public static void main(String[] args)
+	{
+		double n, sum =0.0;
+		Scanner sc = new Scanner(System.in);
+				System.out.println("Enter the numbers: Enter a negative number to stop: ");
+				while(true)
+				{
+					n=sc.nextDouble();
+					if(n<0.0)
+					{
+						break;
+					}
+					sum += n;
+				}
+		System.out.println("Sum is "+sum);
+	}
+}
+//Loop Break Label
+class breakLabelNestedLoop
+{
+	public static void main(String[] args)
+	{
+		outerloop: //Label
+			for(int i=1; i<=5; i++)
+			{
+				innerloop:
+					for(int j=1; j<=5; j++)
+					{
+						if(i == 3 && j==3)
+							break outerloop;
+						System.out.print("$");
+					}
+				{
+					System.out.println();
+				}
+			}
+	}
+}
+class continueLabelLoop
+{
+	public static void main(String[] args)
+	{
+		for(int i=1; i<=10; i++)
+		{
+			if(i == 7)
+			
+				continue;
+				System.out.println(i);
+			
+			
+		}
+	}
+}
+
 
 
 

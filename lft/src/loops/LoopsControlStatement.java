@@ -42,6 +42,7 @@ class LoopsControlStatement1 {
 			break;
 		}
 		sum += n;
+	
 		}
 		System.out.println("Sum is "+sum);
 		

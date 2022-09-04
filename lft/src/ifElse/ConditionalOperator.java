@@ -18,9 +18,7 @@ public class ConditionalOperator {
 		*/
 	max = (a>b) ? a :b; //conditional operator
 		//max = Math.max(a, b);   
-		System.out.println(max);
-		
-		
+		System.out.println(max);		
 
 	}
 
