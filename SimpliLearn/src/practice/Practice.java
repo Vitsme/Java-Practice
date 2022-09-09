@@ -1,5 +1,7 @@
 package practice;
 
+import java.util.*;
+
 public class Practice {
 	
 	
@@ -88,13 +90,143 @@ class IfElseStmt
 	}
 }
 
+//Enhanced For loop
+class EnhancedForLoop
+{
+	public static void main(String [] args)
+	{
+		int[] numbers = {1,2,3,4,5,6,7,8,9,0};
+		for(int items : numbers)
+		{
+			System.out.println("Count is: "+items);
+		}
+	}
+}
 
+//Nested For Loop
+class NestedForLoop
+{
+	public static void main(String[] args)
+	{
+		int[][] arr = {{1,2,3},{4,5,6},{7,8,9}};
+		
+		for(int i=0;i<=3;i++)
+		{
+			for(int j=0;j<=i;j++)
+			{
+				System.out.print(arr[i][j]+" ");
+			}
+			System.out.println();
+		}
+	}
+}
+/**
+//ArrayList
+class ArrayList
+{
+	public static void main(String[] args)
+	{
+		List<Integer> arrayList = new ArrayList<>(5);
+		
+		for(int i =1; i<=5; i++)
+		{
+			arrayList.add(i);
+		}
+		System.out.println(arrayList);
+		
+	}
+}
+**/
 
+//For With labels
+class ForWithLabels
+{
+	public static void main(String[] args)
+	{
+		label0:
+			for(int a = 1; a<=3; a++)
+			{
+				label1:
+					for(int b=1; b<=3; b++)
+					{
+						if(a == 3 && b == 3)
+						{
+							break label1;
+						}
+						System.out.println(a+" "+b);
+					}
+			}
+	}
+}
+//while(condition)
 
+class WhileLoopCheck
+{
+	public static void main(String[] args)
+	{
+		int i;
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter Your Value: ");
+		i = sc.nextInt();
+		
+		while(i <= 5)
+		{
+			System.out.println(i);
+			i++;
+		}
+	}
+}
+//do{Statement}while(Condition)
 
+class DoWhile
+{
+	public static void main(String[] args)
+	{
+		int s;
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter the First no: ");
+		s = sc.nextInt();
+		
+		do
+		{
+			System.out.println(s);
+			s++;
+		}while(s <= 5);
+	}
+}
 
+//Instance of Operator
 
+class Simplepgm
+{
+	public static void main(String[] args)
+	{
+		Simplepgm s = new Simplepgm();
+		System.out.println("This is instanceof Simplepgm");
+	}
+}
 
+//OneDimensional Array
+class OneDimensionalArray
+{
+	static void minimum(int a[])
+	{
+		int value =a[0];
+		for(int m =1; m<a.length;m++)
+		{
+		if(value>a[m])
+			value =a[m];
+		}
+		System.out.println(value);
+		
+	}
+	
+	public static void main(String[] args)
+	{
+		int x[] = {25,3,13,2,5,21,7};
+		minimum (x);
+	}
+}
 
 
 
