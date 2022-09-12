@@ -7,9 +7,7 @@ public class Practice {
 	
 	public int CompareNum(int a,int b)
 	{
-		
-		
-				
+					
 		if(a>b)
 		{
 			return a;
@@ -17,18 +15,14 @@ public class Practice {
 		{
 			return b;
 		}
-
 	}
-
 	public static void main(String[] args) 
 	{
 		Practice num = new Practice();
 		int result = num.CompareNum(15,7);
-		System.out.println(result);
-	
+		System.out.println(result);	
 	}
 }
-
 //Typecasting - Widening (Converting lower datatype to higher datatype)
 class Widening
 {
@@ -42,9 +36,6 @@ class Widening
 		
 	}
 }
-
-
-
 //Typecasting - Narrowing(converting higher datatype to lower datatype)
 class Narrawing
 {
@@ -55,7 +46,6 @@ class Narrawing
 		System.out.println("Character value of the given integer: "+c);
 	}
 }
-
 //Conditional Statement
 class IfStmt
 {
@@ -71,7 +61,6 @@ class IfStmt
 		}
 	}
 }
-
 //To find the IfElseStmt
 class IfElseStmt
 {
@@ -85,8 +74,7 @@ class IfElseStmt
 		else 
 		{
 			System.out.println("Odd number");
-		}
-		
+		}		
 	}
 }
 
@@ -102,7 +90,6 @@ class EnhancedForLoop
 		}
 	}
 }
-
 //Nested For Loop
 class NestedForLoop
 {
@@ -132,12 +119,10 @@ class ArrayList
 		{
 			arrayList.add(i);
 		}
-		System.out.println(arrayList);
-		
+		System.out.println(arrayList);		
 	}
 }
 **/
-
 //For With labels
 class ForWithLabels
 {
@@ -159,7 +144,6 @@ class ForWithLabels
 	}
 }
 //while(condition)
-
 class WhileLoopCheck
 {
 	public static void main(String[] args)
@@ -177,7 +161,6 @@ class WhileLoopCheck
 	}
 }
 //do{Statement}while(Condition)
-
 class DoWhile
 {
 	public static void main(String[] args)
@@ -196,7 +179,6 @@ class DoWhile
 }
 
 //Instance of Operator
-
 class Simplepgm
 {
 	public static void main(String[] args)
@@ -217,10 +199,8 @@ class OneDimensionalArray
 		if(value>a[m])
 			value =a[m];
 		}
-		System.out.println(value);
-		
-	}
-	
+		System.out.println(value);		
+	}	
 	public static void main(String[] args)
 	{
 		int x[] = {25,3,13,2,5,21,7};
@@ -235,10 +215,7 @@ class OneDimensionalArray
  * public static void fill(int[] a, int val) ---- Filling data
  * public static void sort(Object[] a) ---- Sorting data
  */
-
-
 //For Each Loop
-
 class Foreacheg
 {
 	public static void main(String[] args)
@@ -249,8 +226,7 @@ class Foreacheg
 		for(int x: a)
 		{
 			sum += x; //sum = sum+x;
-		}
-		
+		}		
 		System.out.println("Total: "+sum);
 	}
 }

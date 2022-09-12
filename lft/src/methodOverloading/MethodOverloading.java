@@ -20,6 +20,8 @@ public class MethodOverloading {
 		System.out.println(max(5,7));
 		System.out.println(max(5.5,8.2));
 		System.out.println(max('p','c'));
+		
+		//Math.abs is the inbuild method overload by java it will convert negative number to positive
 		System.out.println(Math.abs(-4.5));//passing double 
 		System.out.println(Math.abs(10));//passing integer
 		
