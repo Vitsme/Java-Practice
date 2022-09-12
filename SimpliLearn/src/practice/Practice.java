@@ -228,7 +228,32 @@ class OneDimensionalArray
 	}
 }
 
+/*
+ * 		Array Class
+ * public static int binarySearch(Object[] a, Object key) ---- Doing Binary Search.
+ * public static boolean equals(long[] a, long[] a2)    ---- Comparing 2 Keys.
+ * public static void fill(int[] a, int val) ---- Filling data
+ * public static void sort(Object[] a) ---- Sorting data
+ */
 
+
+//For Each Loop
+
+class Foreacheg
+{
+	public static void main(String[] args)
+	{
+		int[] a = {13,5,78,34};
+		int sum =0;
+		
+		for(int x: a)
+		{
+			sum += x; //sum = sum+x;
+		}
+		
+		System.out.println("Total: "+sum);
+	}
+}
 
 
 
