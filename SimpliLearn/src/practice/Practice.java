@@ -230,8 +230,59 @@ class Foreacheg
 		System.out.println("Total: "+sum);
 	}
 }
+//Method Overloading
+class MethodOverloading
+{
+	static int add(int a,int b)
+	{
+		return a+b;
+	}
+	static int add(int a,int b,int c)
+	{
+		return a+b+c;
+	}
+}
+class Overloading
+{
+	public static void main(String[] args)
+	{
+		System.out.println(MethodOverloading.add(2,7));
+		System.out.println(MethodOverloading.add(3,6,9));
+	}
+}
 
+//Parameters
 
+class Parameters
+{
+	int v = 500;
+	void change(int v)
+	{
+		v=v+100;//Changes will be in the local variable only
+	}
+	public static void main(String[] args)
+	{
+		Parameters O =new Parameters();
+		System.out.println("Before Parameter "+O.v);
+		//output 500
+		O.change(700);
+		System.out.println("After Parameter "+O.v);
+		//output 500
+	}
+}
+//Varargs
+class VarargsEx
+{
+	static void display(String...values) ///dots after datatypes indicates variable 1 to infinite
+	{
+		System.out.println("Display Method has been invoked");
+	}
+	public static void main(String[] args)
+	{
+		display();
+		display("my","name","is","JAVA");
+	}
+}
 
 
 
