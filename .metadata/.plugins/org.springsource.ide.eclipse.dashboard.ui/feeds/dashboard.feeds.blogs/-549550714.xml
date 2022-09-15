@@ -5,7 +5,7 @@
   <link rel="self" href="https://spring.io/blog.atom" />
   <id>http://spring.io/blog.atom</id>
   <icon>https://spring.io/favicon.ico</icon>
-  <updated>2022-09-15T09:05:53Z</updated>
+  <updated>2022-09-15T09:05:00Z</updated>
   <entry>
     <title>Spring Framework 6.0.0-M6 and 5.3.23 available now</title>
     <link rel="alternate" href="https://spring.io/blog/2022/09/15/spring-framework-6-0-0-m6-and-5-3-23-available-now" />
@@ -14,10 +14,10 @@
       <name>Stéphane Nicoll</name>
     </author>
     <id>tag:spring.io,2022-09-15:4905</id>
-    <updated>2022-09-15T09:05:53Z</updated>
+    <updated>2022-09-15T09:05:00Z</updated>
     <content type="html">&lt;p&gt;On behalf of the team and everyone who has contributed, I am pleased to announce that Spring Framework &lt;code&gt;6.0.0-M6&lt;/code&gt; and &lt;code&gt;5.3.23&lt;/code&gt; are available now.&lt;/p&gt;
-&lt;p&gt;Spring Framework &lt;code&gt;5.3.23&lt;/code&gt; includes &lt;a href="https://github.com/spring-projects/spring-framework/releases/tag/v5.3.22"&gt;32 fixes and improvements&lt;/a&gt; and is a recommended upgrade for all Spring production scenarios.&lt;/p&gt;
-&lt;p&gt;Spring Framework &lt;code&gt;6.0.0-M6&lt;/code&gt; includes &lt;a href="https://github.com/spring-projects/spring-framework/releases/tag/v6.0.0-M5"&gt;123 additional fixes and improvements&lt;/a&gt; specific to the 6.0 branch. This milestone wraps up most of our AOT efforts, in preparation for our release candidate phase. Stay tuned for the announcement of Spring Boot 3.0.0-M5 next week!&lt;/p&gt;
+&lt;p&gt;Spring Framework &lt;code&gt;5.3.23&lt;/code&gt; includes &lt;a href="https://github.com/spring-projects/spring-framework/releases/tag/v5.3.23"&gt;32 fixes and improvements&lt;/a&gt; and is a recommended upgrade for all Spring production scenarios.&lt;/p&gt;
+&lt;p&gt;Spring Framework &lt;code&gt;6.0.0-M6&lt;/code&gt; includes &lt;a href="https://github.com/spring-projects/spring-framework/releases/tag/v6.0.0-M6"&gt;123 additional fixes and improvements&lt;/a&gt; specific to the 6.0 branch. This milestone wraps up most of our AOT efforts, in preparation for our release candidate phase. Stay tuned for the announcement of Spring Boot 3.0.0-M5 next week!&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://projects.spring.io/spring-framework/"&gt;Project Page&lt;/a&gt; | &lt;a href="https://github.com/spring-projects/spring-framework"&gt;GitHub&lt;/a&gt; | &lt;a href="https://github.com/spring-projects/spring-framework/issues"&gt;Issues&lt;/a&gt; | &lt;a href="https://docs.spring.io/spring-framework/docs/5.3.23/reference/html/"&gt;Documentation&lt;/a&gt;&lt;/p&gt;
 &lt;!-- rendered by Sagan Renderer Service --&gt;</content>
   </entry>
