@@ -17,4 +17,6 @@
     <fullyQualifiedTypeName name="projectPractice.Bus"/>
     <fullyQualifiedTypeName name="com.sun.net.httpserver.Authenticator.Result"/>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="java.util.Calendar"/>
+    <fullyQualifiedTypeName name="java.util.Date"/>
 </qualifiedTypeNameHistroy>
